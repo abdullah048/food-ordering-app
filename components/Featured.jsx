@@ -14,7 +14,7 @@ const Featured = () => {
     }
   }
   return (
-    <div className='h-[calc(100vh-100px)] bg-[#d1411e] overflow-hidden'>
+    <div className='mobile:h-[50vh] tablet:h-[65vh] relative h-[calc(100vh-100px)] bg-[#d1411e] overflow-hidden'>
       <div
         className='absolute w-[10%] h-[20%] top-0 bottom-0 left-0 m-auto z-10 cursor-pointer'
         onClick={() => handleArrow('left')}
